@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lara Croft",
+    "series": "Tomb Raider",
+    "image": "https://images.hdqwalls.com/wallpapers/lara-croft-hunter-girl-8k-o0.jpg",
+    "icon": "lara.png",
+    "description": "Lara Croft is a fearless and intrepid archaeologist originating from England, widely recognized as the iconic protagonist of the renowned Tomb Raider video game franchise. Possessing an unwavering determination and sharp intellect, Lara embarks on perilous expeditions across the globe in search of ancient artifacts and hidden treasures. Her unparalleled agility, remarkable combat skills, and proficiency in solving intricate puzzles have enabled her to navigate treacherous environments, overcome deadly traps, and confront supernatural adversaries. With her trademark dual pistols and resourceful nature, Lara has triumphed over countless challenges, cementing her status as a symbol of female empowerment in gaming. Beyond her virtual adventures, Lara has transcended the gaming world, making her mark in films, comics, and merchandise. Her enduring legacy and unwavering popularity make her one of the most iconic and influential video game characters of all time."
+  },
+  {
+    "name": "Nathan Drake",
+    "series": "Uncharted series",
+    "image": "https://images.hdqwalls.com/wallpapers/lara-croft-and-nathan-drake-5k-wt.jpg",
+    "icon": "nathan.png",
+    "description": "Nathan Drake is a charismatic and quick - witted treasure hunter featured in the Uncharted series. Known for his rugged charm and adventurous spirit, he possesses exceptional athleticism, acrobatic skills, and marksmanship.Nathan embarks on thrilling expeditions to uncover hidden treasures, solving complex puzzles and engaging in intense gunfights while navigating treacherous environments such as lush jungles, ancient ruins, and snowy mountains."
+  },
+  {
+    "name": "Aloy",
+    "series": "Horizon Zero Dawn",
+    "image": "https://images.hdqwalls.com/wallpapers/aloy-horizon-zero-dawn-bird-4k-u7.jpg",
+    "icon": "aloy.png",
+    "description": "Aloy is the brave and resourceful protagonist of Horizon Zero Dawn. As an agile and skilled hunter, she utilizes a wide array of weapons, including a bow and arrow, to take down formidable robotic creatures that dominate a post - apocalyptic Earth.Aloy's journey involves unraveling the mysteries of her world, discovering her true origins, and challenging powerful forces that threaten humanity's survival."
+  },
+  {
+    "name": "Kratos",
+    "series": "God of War",
+    "image": "https://images.hdqwalls.com/wallpapers/kratos-4k-new-w3.jpg",
+    "icon": "kratos.png",
+    "description": "Kratos is an iconic figure in gaming, known for his relentless fury and strength.As the Spartan warrior - turned - god, he wields formidable weapons such as the Blades of Chaos and Leviathan Axe.Kratos embarks on epic quests, battling gods, mythical creatures, and monsters from various mythologies.Throughout the God of War series, Kratos explores breathtaking realms, confronts his own inner demons, and seeks redemption for his violent past."
+  },
+  {
+    "name": "Ezio Auditore da Firenze",
+    "series": "Assassin's Creed",
+    "image": "https://images.hdqwalls.com/wallpapers/assassins-creed-rogue-remastered-bz.jpg",
+    "icon": "ezio.webp",
+    "description": "Ezio Auditore is a legendary Assassin featured in multiple Assassin's Creed games. Born during the Italian Renaissance, he is a skilled free runner, master of stealth, and a deadly combatant. Ezio's story spans several titles, and players witness his growth from a young nobleman seeking revenge to becoming a key figure in the Assassin Brotherhood's fight against corruption and tyranny."
+  }
+]

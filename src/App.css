@@ -1,0 +1,297 @@
+#root,
+.modal {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+}
+
+button,
+button:active,
+button:focus-visible,
+button:focus {
+  outline: none !important;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  letter-spacing: 2px;
+  filter: drop-shadow(0px 0px 48px #fff);
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  perspective: 50px;
+  perspective-origin: 50% 100%;
+  display: inline-block;
+}
+
+.header::after {
+  content: 'Legends of Games';
+  position: absolute;
+  top: 2px;
+  right: 0;
+  bottom: -8px;
+  left: 0;
+  transform: scaleY(0.5) rotateX(198deg);
+  transform-origin: 50% 100%;
+  opacity: .2;
+  color: #000;
+}
+
+.small-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.small-card {
+  align-items: stretch;
+  width: 256px;
+  margin: 2rem;
+  margin-left: 0;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  background-size: cover;
+  background-position-x: -165px;
+  position: relative;
+  overflow: hidden;
+  filter: hue-rotate(39deg);
+  cursor: pointer;
+  transition: .7s ease-in;
+}
+
+.small-card-image {
+  width: 100%;
+}
+
+.small-card-series-container {
+  display: none;
+  position: absolute;
+  bottom: -.5rem;
+  right: 1rem;
+  left: 0;
+  text-align: right;
+  padding: 2rem;
+  margin: -2rem;
+  background: -webkit-linear-gradient(90deg,
+      hsl(0deg 0% 0%) 0%,
+      hsl(0deg 80.28% 13.44% / 40%) 39%,
+      hsl(0deg 0% 0% / 0%) 90%);
+  transition: all 3s;
+}
+
+.small-card:hover>.small-card-series-container {
+  display: block;
+}
+
+.small-card:hover {
+  z-index: 99;
+  filter: drop-shadow(0px 42px 21px #000);
+}
+
+.small-card-name-container {
+  position: absolute;
+  top: -.5rem;
+  left: 1rem;
+  text-align: right;
+}
+
+.back-button {
+  position: sticky;
+  top: 4rem;
+  left: 2rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  background: transparent;
+  transition: .1s ease-in;
+  outline: none;
+  user-select: none;
+}
+
+.back-button:hover {
+  filter: drop-shadow(0px 0px 32px #fff);
+}
+
+.back-arrow {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #ffffff;
+  border-bottom: 25px solid transparent;
+  margin-right: 16px;
+}
+
+.modal-container {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  overflow-y: auto;
+  -webkit-animation: modalAnimation .7s;
+  -moz-animation: modalAnimation .7s;
+  -o-animation: modalAnimation .7s;
+  animation: modalAnimation .7s;
+}
+
+.modal-header {
+  position: relative;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.modal-header-image {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.modal-header-text {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 500%;
+  font-weight: bold;
+  text-align: right;
+}
+
+.modal-header-text-small {
+  font-size: 50%;
+  margin-top: -1rem;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-illustration {
+  flex: 1;
+  height: 500px;
+  filter: drop-shadow(-10px 2px 6px #ff090167);
+  margin-right: 3rem;
+  -webkit-animation: shadowAnimation 3s infinite;
+  -moz-animation: shadowAnimation 3s infinite;
+  -o-animation: shadowAnimation 3s infinite;
+  animation: shadowAnimation 3s infinite;
+}
+
+.hero-description {
+  flex: 3;
+  font-size: 18px;
+}
+
+@keyframes shadowAnimation {
+  0% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+
+  50% {
+    filter: drop-shadow(-10px 2px 6px #ff090167);
+  }
+
+  100% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+}
+
+@-o-keyframes shadowAnimation {
+  0% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+
+  50% {
+    filter: drop-shadow(-10px 2px 6px #ff090167);
+  }
+
+  100% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+}
+
+@-moz-keyframes shadowAnimation {
+  0% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+
+  50% {
+    filter: drop-shadow(-10px 2px 6px #ff090167);
+  }
+
+  100% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+}
+
+@-webkit-keyframes shadowAnimation {
+  0% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+
+  50% {
+    filter: drop-shadow(-10px 2px 6px #ff090167);
+  }
+
+  100% {
+    filter: drop-shadow(0px 2px 6px #ff090167);
+  }
+}
+
+@keyframes modalAnimation {
+  0% {
+    left: 100vw;
+  }
+
+  100% {
+    left: 0
+  }
+}
+
+@-o-keyframes modalAnimation {
+  0% {
+    left: 100vw;
+  }
+
+  100% {
+    left: 0
+  }
+}
+
+@-moz-keyframes modalAnimation {
+  0% {
+    left: 100vw;
+  }
+
+  100% {
+    left: 0
+  }
+}
+
+@-webkit-keyframes modalAnimation {
+  0% {
+    left: 100vw;
+  }
+
+  100% {
+    left: 0
+  }
+}
